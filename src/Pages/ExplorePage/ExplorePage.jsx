@@ -11,7 +11,7 @@ const ExplorePage = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [categories, setCategories] = useState(['All', 'Love', 'Adventure', 'Mystery', 'Fantasy', 'Sci-Fi', 'Historical', 'Horror', 'Comedy', 'Drama']);
     const [selectedCategory, setSelectedCategory] = useState('All');
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true); // State to manage sidebar visibility
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false); 
 
     useEffect(() => {
         const fetchStories = async () => {
@@ -37,7 +37,7 @@ const ExplorePage = () => {
 
     return (
         <div className={`explore-page ${isSidebarOpen ? 'sidebar-open' : 'sidebar-closed'}`}>
-            <Navbar toggleSidebar={toggleSidebar} /> {/* Pass toggle function to Navbar */}
+            <Navbar toggleSidebar={toggleSidebar} /> 
             <div className={`main-content ${isSidebarOpen ? 'with-sidebar' : 'without-sidebar'}`}>
                 {isSidebarOpen && <Sidebar />}
                 <div className="explore-section">

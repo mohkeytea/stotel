@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import { FaSave, FaPaperPlane } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
-import { saveDraft, addStory, updateStory } from '../../services/firestoreservice'; 
+import { saveDraft, addStory, updateStory } from '../../services/FirestoreService'; 
 
 const StoryWriting = () => {
     const [title, setTitle] = useState('');
