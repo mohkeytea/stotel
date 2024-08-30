@@ -1,0 +1,108 @@
+/* Footer.css */
+
+/* Footer container styling */
+.footer {
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+    padding: 1rem 2rem; /* Adjusted padding for better spacing */
+    width: 100vw; /* Full viewport width */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+/* Footer content layout */
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+    max-width: 1200px; 
+    margin-bottom: 1rem;
+}
+
+/* Footer logo styling */
+.footer-logo{
+    flex: 1;
+}
+.footer-logo h1 {
+    margin: 0;
+    font-size: 1.75rem; 
+    color: #333;
+}
+
+/* Footer links styling */
+.footer-links {
+    flex: 2;
+ 
+
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-links li {
+    margin: 0;
+}
+
+.footer-links a {
+    color: #555;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #333;
+}
+
+/* Social media icons styling */
+.footer-social {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-social a {
+    color: #555;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #333;
+}
+
+/* Footer bottom text */
+.footer-bottom {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #777;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .footer-social {
+        margin-top: 1rem;
+    }
+
+    .footer-social a {
+        margin: 0.5rem 0;
+    }
+}

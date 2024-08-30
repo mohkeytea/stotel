@@ -1,0 +1,114 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a consistent font for the entire app */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* A container class that can be reused across components */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Max width for large screens */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Make sure all form elements, buttons, and inputs are well-styled */
+form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Inputs and buttons */
+input, button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    display: block;
+}
+
+button {
+    background-color: #354638;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #bcd6c1;
+}
+
+/* Make sure all text content is centered */
+p, label {
+    text-align: center;
+}
+
+/* Global link styling */
+a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive media queries */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    form {
+        padding: 1.5rem;
+    }
+
+    input, button {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    form {
+        padding: 1rem;
+    }
+
+    input, button {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+    }
+}

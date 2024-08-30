@@ -1,0 +1,94 @@
+.story-detail-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.dark-mode {
+    background-color: #1c1c1c;
+    color: #f9f9f9;
+}
+
+.toggle-dark-mode {
+    background-color: transparent;
+    color: inherit;
+    font-size: 1.5rem;
+    width: fit-content;
+    border: none;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.story-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.story-detail-header h1 {
+    margin: 0;
+}
+
+.story-detail-header .author {
+    font-size: 14px;
+    color: #666;
+}
+
+.story-content {
+    margin-bottom: 20px;
+}
+
+.story-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.action-button .icon {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.comments-section {
+    margin-top: 30px;
+}
+
+.comments-list .comment {
+    margin-bottom: 15px;
+}
+
+.add-comment {
+    margin-top: 15px;
+}
+
+.add-comment textarea {
+    width: 80%;
+    height: 80px;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.comment-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    margin: 10px 20px;
+}
+
+.comment-button .icon {
+    margin-right: 8px;
+    font-size: 18px;
+}

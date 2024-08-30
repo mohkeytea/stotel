@@ -1,0 +1,18 @@
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-header-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-header-username {
+    font-size: 24px;
+    font-weight: bold;
+}

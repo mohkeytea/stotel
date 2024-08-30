@@ -1,0 +1,96 @@
+/* HomePage.css */
+
+/* Overall page styling */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar styling */
+.home-page .navbar {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Main content container */
+.main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Content area styling */
+.content {
+    flex: 1;
+    padding: 1rem;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+/* Search bar styling */
+.search-bar {
+    margin-bottom: 2rem;
+    visibility: hidden;
+}
+
+/* Featured section styling */
+.featured-section {
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Stories section */
+.stories-section {
+    margin-top: 1rem;
+}
+
+.stories-section .section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+/* Story cards container */
+.story-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Story card styling */
+.story-card {
+    flex: 1 1 calc(33.333% - 1rem);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.story-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}

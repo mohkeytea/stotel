@@ -1,0 +1,29 @@
+
+
+.featured-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 2rem;
+}
+
+.featured-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.featured-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.featured-cards p {
+    color: #888;
+    font-size: 1.2em;
+}
+
+.featured-cards::-webkit-scrollbar {
+    display: none;
+}

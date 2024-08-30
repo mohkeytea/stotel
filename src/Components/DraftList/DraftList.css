@@ -1,0 +1,42 @@
+.draft-list-container {
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+.draft-list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.draft-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.draft-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: relative;
+}
+
+.delete-draft {
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #dc3545;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.delete-draft:hover {
+    background-color: #c82333;
+}

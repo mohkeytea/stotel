@@ -1,0 +1,13 @@
+.user-comment-list {
+    padding: 20px;
+}
+
+.user-comment-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-comment-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}

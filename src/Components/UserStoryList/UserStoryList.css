@@ -1,0 +1,13 @@
+.user-story-list {
+    padding: 20px;
+}
+
+.user-story-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-story-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}

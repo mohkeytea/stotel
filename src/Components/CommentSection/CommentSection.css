@@ -1,0 +1,39 @@
+.comment-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.comment-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.comment-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.comment-author {
+    font-size: 14px;
+    color: #777;
+    text-align: right;
+}
+
+.no-comments {
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+}
