@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './FeaturedSection.css';
 import StoryCard from '../StoryCard/StoryCard';
-import { getFeaturedStories } from '../../services/firestoreservice';
+import { getFeaturedStories } from '../../services/FirestoreService';
 const FeaturedSection = () => {
     const [featuredStories, setFeaturedStories] = useState([]);
     const [loading, setLoading] = useState(true);
